@@ -1,120 +1,120 @@
 **1. Deep Learning cheatsheet**
 
-&#10230;
+&#10230; ディープラーニング チートシート
 
 <br>
 
 **2. Neural Networks**
 
-&#10230;
+&#10230; ニューラルネットワーク
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230; ニューラルネットワークはレイヤーで構築されたモデルのクラスです。ニューラルネットワークは、一般に使用されるタイプのニューラルネットワークとして、畳み込みニューラルネットワークと再起型ニューラルネットワークがあります。
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;
+&#10230; アーキテクチャ - ニューラルネットワークアーキテクチャに関する用語を下図に示します:
 
 <br>
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230; [入力層, 隠れ層, 出力層]
 
 <br>
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;
+&#10230; iはネットワークのi番目の層を、jはその層のj番目のユニットを意味し、次のように表記します:
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;
+&#10230; ここで、w、b、zはそれぞれ、重み、バイアス、出力を意味します。
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;
+&#10230; 活性化関数 - 活性化関数は非線形の複雑さをモデルに導入するために隠れユニットの最後で使用されます。最も一般的なものを次のとおりです:
 
 <br>
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230;
+&#10230; [シグモイド, Tanh, ReLU, Leaky ReLU]
 
 <br>
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;
+&#10230; クロスエントロピーロス - ニューラルネットワークの文脈において、クロスエントロピーロスは一般的に使用され、次のように定義される:
 
 <br>
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;
+&#10230; 学習率 - 学習率はよくα（時にはη）と表記され、重みの更新ペースを示します。これは一定にすることも適応的に変動させることもできます。現在最も普及している手法はAdamと呼ばれ、学習率を適応させる手法です。
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230;
+&#10230; 誤差逆伝播法 - 誤差逆伝播法は実際の出力と期待される出力を考慮してニューラルネットワークの重みを更新する手法です。重みwに関する導関数は連鎖律を使用して計算され、以下の形式である:
 
 <br>
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230;
+&#10230; 結果として、重みは次のように更新される:
 
 <br>
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;
+&#10230; 重みの更新 - ニューラルネットワークの重みは次のように更新される:
 
 <br>
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230;
+&#10230; ステップ1: トレーニングデータのバッチを取得する
 
 <br>
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;
+&#10230; ステップ2: 順伝播を実行し、対応する損失を求める
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230;
+&#10230; ステップ3: 損失を逆伝播し、勾配を求める
 
 <br>
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
-&#10230;
+&#10230; ステップ4: 勾配を使ってネットワークの重みを更新する
 
 <br>
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230;
+&#10230; ドロップアウト - ドロップアウトとはニューラルネットワーク内のユニットを不活性化することによりトレーニングデータに対する過学習を防ぐ手法です。実際には、ニューロンは確率pで不活性化されるか、確率1-pで活性化されます。
 
 <br>
 
 **20. Convolutional Neural Networks**
 
-&#10230;
+&#10230; 畳み込みニューラルネットワーク
 
 <br>
 
